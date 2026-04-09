@@ -65,9 +65,10 @@ class _HomePageState extends State<HomePage> {
         backgroundColor: Colors.transparent,
         elevation: 0,
         title: Text(
-          "Xin chào, ${user?.email?.split('@').first ?? 'Người học'} 👋",
+          "Xin chào   ${user?.email?.split('@').first ?? 'Người học'} 👋\nHãy bắt đầu học nào",
           style: const TextStyle(
             fontWeight: FontWeight.bold,
+
             color: Colors.black87,
           ),
         ),
